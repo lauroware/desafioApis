@@ -1,0 +1,4 @@
+paths:
+/chat/:
+get:
+summary: Ruta a la vista del chat

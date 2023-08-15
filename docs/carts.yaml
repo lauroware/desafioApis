@@ -1,0 +1,24 @@
+paths:
+/api/carts/get/:cid:
+get:
+summary: Devuelve JSON, carrito con productos
+
+/api/carts/post:
+post: 
+summary: Crea carrito, también se crea al crear usuario y loguearse
+
+/api/carts/post/:cid/products/:pid
+post:
+summary: Agrega producto a un carrito específico.
+
+/api/carts/:cid
+delete: 
+summary: Borra carrito
+
+/api/carts/:cid/products/:pid
+delete: 
+summary: Borra producto del carrito
+
+/api/carts/:cid/purchase
+get: 
+summary: Compra el carrito y crea ticket.

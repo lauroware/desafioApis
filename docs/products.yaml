@@ -1,0 +1,24 @@
+paths:  
+/api/products/get:
+get: 
+summary:  Devuelve JSON de todos los productos
+
+/api/products/get:
+get: 
+summary: Devuelve JSON de producto en específico
+
+/api/products/post:
+post: 
+summary: Crea producto a través del body de la request
+
+/api/products/put/:pid:
+put: 
+summary: Actualiza producto
+
+/api/products/delete/:pid:
+get: 
+summary: Elimina producto
+
+
+
+
